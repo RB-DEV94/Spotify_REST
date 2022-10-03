@@ -15,6 +15,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,6 +26,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 @Controller
+@RequestMapping("/api")
 public class SpotifyController
 {
 
@@ -72,7 +74,7 @@ public class SpotifyController
 
             model.addAttribute("albums", album.getAlbums(access));
 
-            return "hello";
+            return "albums";
     }
     @GetMapping(value = "/tracks", produces = MediaType.TEXT_HTML_VALUE)
     public String savedAlbums(final Model model) throws JSONException, IOException {
@@ -85,6 +87,6 @@ public class SpotifyController
     @GetMapping(value ="/logout", produces = MediaType.TEXT_HTML_VALUE)
     public String logoutHandler(final HttpSession session) {
         session.invalidate();
-        return "redirect:/?logout";
+        return "redirect:/api/";
     }
 }
