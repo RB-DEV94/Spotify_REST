@@ -7,7 +7,7 @@ This application is a simple Spring boot Based application which Authorizes a us
 from  : https://developer.spotify.com/documentation/web-api/reference/#/
 
 
-The Spotify Web API has a detailed description about the authorization flow 
+The Spotify Web API Documentation above has a detailed description about the authorization flow 
 
 The application Runs on http://localhost:8080/api/
 
