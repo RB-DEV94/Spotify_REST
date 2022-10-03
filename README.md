@@ -1,7 +1,7 @@
 # Spotify_REST
 This is a Simple Rest Service which consumes Spotify API
 
-Spotify follows a OAuth2.0 Protocol for Authorization
+Spotify follows an OAuth2.0 Protocol for Authorization
 
 This application is a simple Spring boot Based application which Authorizes a user based on his client ID and Secret and hits the Spotify GET ALBUMS and GET TRACKS requests
 from  : https://developer.spotify.com/documentation/web-api/reference/#/
