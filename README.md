@@ -18,7 +18,10 @@ The application Runs on http://localhost:8080/api/
 Hitting the Authenticate button above will give an authorization code which will be used for getting the bearer token which happens behind the scenes as that information is sensitive
 
 There is a CallBack URL which is used for redirection along with the authorization code 
+
 This Callback URL is set in the Spotify Developer Dashboard and a Client ID and Secret is registered at that time where there is an option for registering the callback URL 
+
+
 Link : https://developer.spotify.com/dashboard/
 
 
@@ -42,7 +45,7 @@ Links for Getting Saved Tracks and albums
 <img width="1502" alt="Screen Shot 2022-10-03 at 1 57 06 PM" src="https://user-images.githubusercontent.com/72269385/193678173-a276d1e5-87df-4ca4-a174-01adb2e856ab.png">
 
 
-The GetAlbums and GetTracks hits the spotify GET endpoint for Tracks and albums
+The GetAlbums and GetTracks hits the spotify GET endpoints for Tracks and albums
 
 
 
