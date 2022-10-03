@@ -17,6 +17,17 @@ The application Runs on http://localhost:8080/api/
 
 Hitting the Authenticate button above will give an authorization code which will be used for getting the bearer token which happens behind the scenes as that information is sensitive
 
+There is a CallBack URL which is used for redirection along with the authorization code 
+This Callback URL is set in the Spotify Developer Dashboard and a Client ID and Secret is registered at that time where there is an option for registering the callback URL 
+Link : https://developer.spotify.com/dashboard/
+
+
+
+<img width="1492" alt="Screen Shot 2022-10-03 at 3 49 09 PM" src="https://user-images.githubusercontent.com/72269385/193679816-7acf1855-2c80-4eba-bf20-737f0222ad0e.png">
+
+
+
+
 
 <img width="1510" alt="Screen Shot 2022-10-03 at 1 56 24 PM" src="https://user-images.githubusercontent.com/72269385/193678046-0c26ea59-1bd0-44a7-81cf-d55022cbbe48.png">
 
